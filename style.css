@@ -1,0 +1,83 @@
+body{
+    background: hsl(0, 9%, 96%);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 0px;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+}
+
+.furnitures{
+    margin-top: 50px;
+    /* border: 0px solid green; */
+    
+}
+
+.catalogue{
+    margin: 0px;
+    
+    /* border: 0px solid blue; */
+
+}
+
+.furniture{
+    /* border: 0px solid red; */
+    background-color: white;
+    display: inline-block;
+    width: 370px;
+    height: 430px;
+    margin-left: 20px;
+    text-align: left;
+    
+    
+    
+    
+    
+}
+h3{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+    margin: 0px;
+    padding: 0;
+    text-decoration: underline dotted rgb(216, 214, 214);
+    color: #343434;
+    
+}
+.furniture img{
+    width: 370px;
+    height: 250px;  
+    transition: all .2s ease;
+
+}
+.furniture h6{
+    color: rgb(180, 173, 173);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0px;
+    cursor: pointer;
+}
+.furniture p{
+    cursor: pointer;
+    margin: 0px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px
+    
+}
+.furniture span{
+    cursor: pointer;
+    background-color: transparent;
+    margin: 0px;
+    text-decoration: underline
+    
+    
+}
+.furniture img:hover{
+    transform: scale(1.2);
+}
+   
